@@ -1,6 +1,8 @@
 package com.ellick.leetcode.l287;
 //https://leetcode-cn.com/problems/find-the-duplicate-number/
 public class FindDuplicate {
+    //TODO: fast,slow pointers. loop twice, first get meet-point, second restart to meet again with same pace
+
     public int findDuplicate(int[] nums) {
         if (nums == null || nums.length < 2)
             return -1;

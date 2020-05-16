@@ -16,6 +16,6 @@ public class TestMinimumTotal {
         triangle.get(2).addAll(Arrays.asList(new Integer[]{6,5,7}));
         triangle.add(new ArrayList<Integer>());
         triangle.get(3).addAll(Arrays.asList(new Integer[]{4,1,8,3}));
-        mt.minimumTotal(triangle);
+        System.out.println(mt.minimumTotal(triangle));
     }
 }
